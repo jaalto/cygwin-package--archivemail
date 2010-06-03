@@ -1,0 +1,81 @@
+archivemail
+------------------------------------------
+
+Archive and compress old email
+
+Moves old mail out of a mailbox (in Maildir, MH, or mbox
+format, or via IMAP) and archives it in a compressed mbox-format mailbox
+file. It is well suited to be run from cron for automatic archiving of your
+old mail.
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://sourceforge.net/projects/archivemail
+  http://packages.debian.org/archivemail
+
+Canonical download:
+  See above
+
+Version control repository:
+  http://sourceforge.net/svn/?group_id=49630
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Author: Paul Rodger <paul@paulrodger.com>
+  Bugs: http://sourceforge.net/tracker/?atid=456910&group_id=49630&func=browse
+
+License:
+  GPL
+
+Language:
+  Python
+
+------------------------------------
+
+Build instructions:
+  unpack archivemail-0.7.0-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./archivemail*.sh all
+
+This will create:
+  archivemail-0.7.0-1.tar.bz2
+  archivemail-0.7.0-1-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distro:
+
+usr/bin/archivemail
+usr/lib/python2.5/site-packages/archivemail-0.7.0-py2.5.egg-info
+usr/man/man1/archivemail.1
+usr/share/doc/Cygwin/archivemail-0.7.0.README
+usr/share/doc/archivemail-0.7.0/COPYING
+usr/share/doc/archivemail-0.7.0/ChangeLog
+usr/share/doc/archivemail-0.7.0/FAQ
+usr/share/doc/archivemail-0.7.0/MANIFEST
+usr/share/doc/archivemail-0.7.0/PKG-INFO
+usr/share/doc/archivemail-0.7.0/README
+usr/share/doc/archivemail-0.7.0/TODO
+
+------------------
+
+Port Notes:
+- This port is based on Debian package.
+
+----- version 0.7.0-1 -----
+- Initial release 2007-09-20 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
