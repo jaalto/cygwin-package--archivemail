@@ -3,5 +3,5 @@ ldesc: "Move old mail out of a mailbox (in Maildir, MH, or mbox
 format, or via IMAP) and archives it in a compressed mbox-format mailbox
 file. It is well suited to be run from cron for automatic archiving of your
 old mail."
-category: Mail
-requires: cygwin python
+category: Mail Python
+requires: python
