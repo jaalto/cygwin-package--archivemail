@@ -1,3 +1,2 @@
-# Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
 tag1: archivemail
   http://packages.debian.org/unstable/archivemail pregexp:tar.gz file:orig.tar.gz new: x:
