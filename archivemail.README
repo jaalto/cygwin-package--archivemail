@@ -9,10 +9,10 @@ file. It is well suited to be run from cron for automatic archiving of your
 old mail.
 
 Runtime requirements:
-  cygwin
+  python
 
 Build requirements:
-  cygwin
+  python
 
 Canonical homepage:
   http://sourceforge.net/projects/archivemail
@@ -22,7 +22,8 @@ Canonical download:
   See above
 
 Version control repository:
-  http://sourceforge.net/svn/?group_id=49630
+  https://sourceforge.net/projects/archivemail/develop
+  git clone git://archivemail.git.sourceforge.net/gitroot/archivemail
 
 Mailing list:
 
@@ -43,15 +44,15 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack archivemail-0.7.2-1-src.tar.bz2
+  unpack archivemail-0.9.0-1-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./archivemail*.sh all
 
 This will create:
-  archivemail-0.7.2-1.tar.bz2
-  archivemail-0.7.2-1-src.tar.bz2
+  archivemail-0.9.0-1.tar.bz2
+  archivemail-0.9.0-1-src.tar.bz2
 
 -------------------------------------------
 
@@ -63,6 +64,9 @@ Files included in the binary distro:
 Port Notes:
 - This port is based on Debian package.
 
+----- version 0.9.0-1 -----
+- New upstream release 2012-01-29 Jari Aalto
+
 ----- version 0.7.2-1 -----
 - New upstream release 2010-06-03 Jari Aalto
 - Python 2.6
@@ -71,4 +75,4 @@ Port Notes:
 - Initial release 2007-09-20 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2007-2010 Jari Aalto; Licenced under GPL v2 or later
+Copyright (C) 2007-2012 Jari Aalto; Licenced under GPL v2 or later
