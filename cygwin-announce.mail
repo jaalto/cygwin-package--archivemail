@@ -1,5 +1,5 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: archivemail 0.7.2-1 -- Archive and compress old email
+Subject: Updated: archivemail 0.9.0-1 -- Archive and compress old email
 --text follows this line--
 
 
@@ -18,7 +18,7 @@ old mail.
 CHANGES SINCE LAST RELEASE
 ==========================
 
-Built for Python 2.6
+See http://archivemail.git.sourceforge.net/git/gitweb.cgi?p=archivemail/archivemail;a=blob_plain;f=CHANGELOG;hb=HEAD
 
 INSTALL OR UPGRADE NOTES
 ========================
