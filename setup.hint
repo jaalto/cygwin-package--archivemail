@@ -1,3 +1,4 @@
+# ARCH=noarch
 sdesc: "Archive and compress old email"
 ldesc: "Move old mail out of a mailbox (in Maildir, MH, or mbox
 format, or via IMAP) and archives it in a compressed mbox-format mailbox
